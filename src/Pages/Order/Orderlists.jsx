@@ -112,7 +112,7 @@ function Orderlists({innerBodyColor , bodyColor}) {
                   <div className="w-[40px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[40px]">
                     <img
                       className="w-full h-full object-cover"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPxfrd4wI6J8H-TTm5xSWZXPglddGveslM8Og3I4u_bA&s"
+                      src={elm?.prodetailspage['0']['images'][0]}
                       alt=""
                     />
                   </div>
@@ -134,7 +134,7 @@ function Orderlists({innerBodyColor , bodyColor}) {
             <td className="py-2 px-4">
               <div className="mt-0 p-0 flex flex-col justify-center">
                 <p className="align-middle text-start text-[14px] font-[400] text-[#5d5959]">
-                  {22}
+                  {elm?.totalQuantity}
                 </p>
               </div>
             </td>

@@ -13,9 +13,6 @@ import AccessibilityIcon from "@mui/icons-material/Accessibility";
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 
 import Homepage01 from "../../Components/Homepage/Homepage01";
-import Sidebar from "../../Partials/Sidebar";
-import Navbar from "../../Partials/Navbar";
-import TokenHelper from "../../Helpers/TokenHelper";
 
 export const tabIcons = [
   ShoppingCartIcon,

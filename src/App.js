@@ -22,6 +22,7 @@ import Signup from "./Pages/Signup/Signup";
 import Chat from "./Pages/Chat/Chat";
 import socketIOClient from "socket.io-client";
 import userService from "./Services/user.service";
+import { BaseURL } from "./Apis/Api";
 
 const modes = ["Light", "Dark"];
 const bgType = ["white" , "#1f1f35", "#1E293B"];
@@ -170,7 +171,7 @@ function App() {
   }, []);
 
 
-  const ENDPOINT = "http://localhost:5000";
+  const ENDPOINT = BaseURL;
   const [socket, setSocket] = useState(null);
   
 

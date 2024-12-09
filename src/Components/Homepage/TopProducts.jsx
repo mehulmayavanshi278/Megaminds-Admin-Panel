@@ -45,7 +45,7 @@ function TopProducts({innerBodyColor , bodyColor}) {
                         <div className='flex flex-row justify-start items-start gap-[20px]'>
                             <div className={`w-[60px] relative h-[60px] ${bodyColor} rounded-[10px]`}>
                                 <div className='w-[40px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  h-[40px]'>
-                                    <img className='w-full h-full object-cover' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPxfrd4wI6J8H-TTm5xSWZXPglddGveslM8Og3I4u_bA&s' alt='' />
+                                    <img className='w-full h-full object-cover' src={elm?.images[0]} alt='' />
                                 </div>
                             </div>
                             <div className='mt-0'>
